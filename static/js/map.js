@@ -927,6 +927,7 @@ function createSearchMarker () {
         }
       })
   })
+  marker.setMap(null)
 
   return marker
 }
